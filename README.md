@@ -6,21 +6,24 @@ This is small JQuery utility which allows you to export any HTML table as CSV fi
 Sample Code
 =========
 JS Code
----------
-$("#table").table2CSV({delivery:'value',template:'complex'})
-$("#table").table2CSV({delivery:'value',template:'simple'})
-
+```JavaScript
+<div class="highlight highlight-js">
+  $("#table").table2CSV({delivery:'value',template:'complex'})
+  $("#table2").table2CSV({delivery:'value',template:'simple'})
+</div>
+```
 HTML Code
----------
-<table>
-  <tr id="normal">
-    <input type="text" id="field1" name="field1" value=""/>
-  </tr>
-  
-  <tr id="extend">
-    <input type="text" id="field3" name="field3" value=""/>
-  </tr>
-</table>
+```html
+<tr id="normal">
+      <input type="text" id="field1" name="field1" value=""/>
+    </tr>
+    
+    <tr id="extend">
+      <input type="text" id="field3" name="field3" value=""/>
+    </tr>
+  </table>
+</div>
+```
 
 Refer to
 =========
