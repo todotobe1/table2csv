@@ -7,10 +7,8 @@ Sample Code
 =========
 JS Code
 ```JavaScript
-<div class="highlight highlight-js">
   $("#table").table2CSV({delivery:'value',template:'complex'})
   $("#table2").table2CSV({delivery:'value',template:'simple'})
-</div>
 ```
 HTML Code
 ```html
